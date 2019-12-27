@@ -37,7 +37,7 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:15:9-40
-25        <activity android:name="com.example.towaquiz.ViewControllers.ResponseForm" >
+25        <activity android:name="com.example.towaquiz.viewcontrollers.ResponseForm" >
 25-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:17:9-22:20
 25-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:17:19-63
 26
@@ -46,10 +46,10 @@
 28-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:19:13-21:64
 29                android:name="android.support.PARENT_ACTIVITY"
 29-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:20:17-63
-30                android:value=".ViewControllers.RequestForm" />
+30                android:value=".viewcontrollers.RequestForm" />
 30-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:21:17-61
 31        </activity>
-32        <activity android:name="com.example.towaquiz.ViewControllers.RequestForm" >
+32        <activity android:name="com.example.towaquiz.viewcontrollers.RequestForm" >
 32-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:23:9-29:20
 32-->/home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:23:19-62
 33            <intent-filter>

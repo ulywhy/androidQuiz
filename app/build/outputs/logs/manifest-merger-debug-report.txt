@@ -80,7 +80,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ulywh
 		ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:15:9-40
 	android:networkSecurityConfig
 		ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:12:9-69
-activity#com.example.towaquiz.ViewControllers.ResponseForm
+activity#com.example.towaquiz.viewcontrollers.ResponseForm
 ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:17:9-22:20
 	android:name
 		ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:17:19-63
@@ -90,7 +90,7 @@ ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManif
 		ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:21:17-61
 	android:name
 		ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:20:17-63
-activity#com.example.towaquiz.ViewControllers.RequestForm
+activity#com.example.towaquiz.viewcontrollers.RequestForm
 ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:23:9-29:20
 	android:name
 		ADDED from /home/ulywhy/AndroidStudioProjects/TowaQuiz/app/src/main/AndroidManifest.xml:23:19-62

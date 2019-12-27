@@ -1,4 +1,4 @@
-package com.example.towaquiz.delegates;
+package com.example.towaquiz.delegates.utils;
 
 import android.content.Context;
 import android.content.DialogInterface;

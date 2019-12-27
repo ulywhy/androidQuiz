@@ -23,14 +23,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.towaquiz.ViewControllers.ResponseForm" >
+        <activity android:name="com.example.towaquiz.viewcontrollers.ResponseForm" >
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ViewControllers.RequestForm" />
+                android:value=".viewcontrollers.RequestForm" />
         </activity>
-        <activity android:name="com.example.towaquiz.ViewControllers.RequestForm" >
+        <activity android:name="com.example.towaquiz.viewcontrollers.RequestForm" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

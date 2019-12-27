@@ -1,4 +1,4 @@
-package com.example.towaquiz.delegates;
+package com.example.towaquiz.delegates.utils;
 
 import android.content.Context;
 
@@ -13,7 +13,7 @@ public class ParamMatcher {
         return paramsMatch(params, context);
     }
 
-    public static Boolean paramsMatch(String [] params, Context context){
+    private static Boolean paramsMatch(String [] params, Context context){
         String paramRegex = "(\\s*[a-zA-Z]\\w*\\s*=\\s*\\w+\\s*)*";
         String lastParamRegex = "\\s*[a-zA-Z]\\w*\\s*=\\s*\\w+\\s*";
 

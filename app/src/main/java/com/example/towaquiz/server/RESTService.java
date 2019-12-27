@@ -18,7 +18,7 @@ public class RESTService extends AsyncTask<String, String, String> {
     //params order
     private static final int URL = 0;
     private static final int METHOD = 1;
-    private static final int PARAMS = 2;
+    private static final int QUERY = 2;
 
     public static final int READ_TIMEOUT = 15000;
     public static final int CONNECTION_TIMEOUT = 15000;
@@ -78,9 +78,9 @@ public class RESTService extends AsyncTask<String, String, String> {
 
         String url = strings[URL];
         String method = strings.length > 1 ? strings[METHOD] : "GET";
-        String params = strings.length > 2 ? strings[PARAMS] : "";
+        String query = strings.length > 2 ? strings[QUERY] : "";
 
-        String composedUrl = this.composeURL(url, params);
+        String composedUrl = url + "?" + query;
 
         try {
             urlObj = new URL(composedUrl);
@@ -100,15 +100,6 @@ public class RESTService extends AsyncTask<String, String, String> {
         }
 
     return connection;
-    }
-
-    private String composeURL(String url, String params){
-        String[] paramList = params.trim().split(",\\s*\\v*");
-
-        for(int idx = 0; idx < paramList.length; idx++){
-            params += paramList[idx] + (idx == paramList.length - 1 ? "" : "&");
-        }
-        return url + "?" + params;
     }
 
     @Override
