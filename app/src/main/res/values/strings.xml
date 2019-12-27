@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Examen BBVA</string>
+    <string name="PutMethod">POST</string>
+    <string name="GetMethod">GET</string>
+    <string name="Peticion">petición:</string>
+    <string name="urlInputLabel">url:</string>
+    <string name="ResponseLabel">response:</string>
+    <string name="SubmitButton">enviar</string>
+    <string name="UrlInputLabel">url:</string>
+    <string name="PeticionView">petición:</string>
+    <string name="ResultadosLabel">resultados:</string>
+</resources>
