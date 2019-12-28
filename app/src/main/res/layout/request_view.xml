@@ -29,6 +29,7 @@
 
         <RadioButton
             android:id="@+id/get"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -38,6 +39,7 @@
 
         <RadioButton
             android:id="@+id/post"
+            style="@style/Widget.AppCompat.CompoundButton.RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
@@ -64,6 +66,7 @@
 
         <AutoCompleteTextView
             android:id="@+id/url_input"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -98,7 +101,7 @@
 
     <Button
         android:id="@+id/submit-button"
-        style="@android:style/Widget.Material.Button.Colored"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="makeRequest"
@@ -107,5 +110,7 @@
         android:paddingRight="4dp"
         android:paddingBottom="4dp"
         android:text="@string/SubmitButton"
+        android:textColor="?attr/colorButtonNormal"
+        android:textColorLink="@color/colorAccent"
         tools:targetApi="m" />
 </LinearLayout>
